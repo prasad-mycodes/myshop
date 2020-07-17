@@ -1,0 +1,107 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  pwd
+    3  df
+    4  help du
+    5  help
+    6  ls -ltr
+    7  wc -l
+    8  ls -ltr | wc -ll
+    9  ls -ltr
+   10  du -f
+   11  du -s
+   12  du -h
+   13  df -h
+   14  ls -ltr
+   15  mkdir media/vboxshared
+   16  mkdir media
+   17  ls -ltr
+   18  cd media/
+   19  ls -ltr
+   20  mkdir vboxshared
+   21  ls -ltr
+   22  cd vo
+   23  cd vboxshared/
+   24  ls -ltr
+   25  pwd
+   26  sudo mount -t vboxsf SHARENAME /media/vboxshared
+   27  sudo mount -t vboxsf /home/prasadm/media/vboxshared
+   28  ls -ltr
+   29  pwd
+   30  cd ..
+   31  sudo mount -t vboxsf Downloads vboxshared
+   32  cd vboxshared/
+   33  ls -ltr
+   34  du -f
+   35  du -h
+   36  ls -lltr
+   37  ls -ltr | wc -l
+   38  history
+   39  cd ../..
+   40  ls -ltr
+   41  mkdir commands
+   42  cd commands/
+   43  vi file1
+   44  ls -ltr
+   45  cat file1 
+   46  vi file1
+   47  vi file1 
+   48  ls -l
+   49  cd commands/
+   50  ls -ltr
+   51  vi file1 
+   52  python --version
+   53  cd ..
+   54  python -version
+   55  sudo apt update
+   56  ls -ltr
+   57  sudo apt install build-essential zlib1g-dev libncur sec5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+   58  sudo apt install ses5-dev libncur-dev wget
+   59  sudo add-apt-repository ppa:deadsnakes/ppa
+   60  history -10
+   61  sudo apt update
+   62  sudo apt install python3.8
+   63  python --version
+   64  python -version
+   65  python3 --version
+   66  sudo snap install pycharm-community --classic
+   67  pycharm-community 
+   68  /snap/pycharm-community/197/plugins/python-ce/helpers/pip-20.0.2-py2.py3-none-any.whl/pip install --no-index setuptools-44.1.0-py2.py3-none-any.whl
+   69  sudo /snap/pycharm-community/197/plugins/python-ce/helpers/pip-20.0.2-py2.py3-none-any.whl/pip install --no-index setuptools-44.1.0-py2.py3-none-any.whl
+   70  pycharm-community 
+   71  ls -ltr
+   72  history
+   73  history >> commands.txt
+  150  sudo apt-get install git
+  151  git config --global user.name "prasad"
+  152  git config --global user.email "mokallaprasad495@gmail.com"
+  153  git init mycodes
+  165  git add README
+  166  git add myshop.zip 
+  167  git commit -m "committed successfully"
+  170  git remote add origin https://github.com/prasad-mycodes/mycodes.git
+  172  git remote add origin https://github.com/prasad-mycodes/mycodes.git
+  173  git push origin master
+  174  git push --help
+  175  git remote add origin https://github.com/prasad-mycodes/mycodes.git
+  177  git commit -m "Initial Commit"
+  179  init git
+  180  git init
+  184  git config -l
+  186  git remote -v
+  188  git add sample.txt 
+  189  git add README 
+  190  git commit -m "intial commit"
+  191  git push -u origin master
+  192  git init
+  193  git remote add origin https://github.com/prasad-mycodes/myshop.git
+  194  git remote remove origin
+  195  git remote add origin https://github.com/prasad-mycodes/myshop.git
+  196  git add README 
+  197  git add sample.txt 
+  198  git commit -m "initial commit"
+  204  git add README
+  205  git add sample.txt 
+  206  git commit -m "initial commit"
+  207  git push origin master
+  208  history | grep -i git
+  211  history | grep -i git >> imp.txt
